@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: darkgray;
+}
+
+button{
+	width: 150px;
+	height: 80px;
+	border: none;
+	color: blueviolet;
+	background-color: transparent;
+	cursor: pointer;
+	margin: 20px;
+	font-size: 1.5em;
+}
+
+.menu{
+	width: 1000px;
+	height: 120px;
+	margin-left: 190px;
+	margin-top: 100px;
+	background-color: darkmagenta;
+}
+
+.one{
+	position: relative;
+}
+.one::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.one::before{
+	position: absolute;
+	content: '';
+	bottom:0;
+	right: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.one:hover::after,
+.one:hover::before{
+	width: 100%;
+	
+	transform: skew(0deg,10deg);
+}
+.two{
+	position: relative;
+}
+.two::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.two::before{
+	position: absolute;
+	content: '';
+	bottom:0;
+	right: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.two:hover::after,
+.two:hover::before{
+	width: 100%;
+	
+	transform: skew(0deg,10deg);
+}
+.three{
+	position: relative;
+}
+.three::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+	.three::before{
+	position: absolute;
+	content: '';
+	bottom:0;
+	right: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.three:hover::after,
+.three:hover::before{
+	width: 100%;
+	
+	transform: skew(0deg,10deg);
+}
+.four{
+	position: relative;
+}
+.four::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.four::before{
+	position: absolute;
+	content: '';
+	bottom:0;
+	right: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.four:hover::after,
+.four:hover::before{
+	width: 100%;
+	
+	transform: skew(0deg,10deg);
+}
+.five{
+	position: relative;
+}
+.five::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.five::before{
+	position: absolute;
+	content: '';
+	bottom:0;
+	right: 0;
+	width: 0%;
+	height: 3px;
+	background-color: blueviolet;
+	transition-duration: 0.35s;
+}
+.five:hover::after,
+.five:hover::before{
+	width: 100%;
+	
+	transform: skew(0deg,10deg);
+}
